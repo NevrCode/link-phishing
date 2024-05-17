@@ -1,5 +1,4 @@
 import joblib
-import re
 
 
 
@@ -32,6 +31,7 @@ class Model :
                 3
                 ]
     def predicts(self,x) :
+
         return self.model.predict(x)
 
 
