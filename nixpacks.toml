@@ -10,4 +10,4 @@
     commands = ["echo 'Build step not required for this application.'"]
 
 [phases.start]
-    commands = [". /opt/venv/bin/activate && gunicorn -w 4 src.app:app"]
+    commands = [". /.venv/Scripts/activate && gunicorn -w 4 src.app:app"]
